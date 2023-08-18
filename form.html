@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Contact detail</h1>
+    <fieldset>
+        <legend>Your Information</legend>
+
+        <form action="mailto:sahilacc000@gmail.com" method="post" enctype="text/plain">
+<p>
+    <label for="">Email</label>
+    <input type="email"name="email"id="email"placeholder="Enter your email"required>
+</p>
+<p>
+    <label for="name">username</label>
+    <input type="text"name="name"id="name">
+</p>
+<p>
+    <!-- Radio yeuta select garna lai  -->
+    <h4>PLEASE SELECT YOUR GENDER</h4>
+    <label for="male">Male</label>
+    <input type="radio"name="gender"id="male"value="male">
+    <label for="Female">Female</label>
+    <input type="radio"name="gender"id="Female"value="Female">
+</p>
+<p>
+    <!-- CHECBOX DUITAI OPTION SELECT GARNA LAI  -->
+    <h4>PLEASE SELECT YOUR HABBIT</h4>
+    <label for="Dance">Dance</label>
+    <input type="checkbox"name="Habits"id="dance"value="Dance">
+    <br>
+    <label for="Sing">Sing</label>
+    <input type="checkbox"name="Habits"id="Sing"value="Sing">
+    <br>
+    <label for="football">Football</label>
+    <input type="checkbox"name="Habits"id="football"value="football">
+</p>
+<p>
+    <!-- DROPDOWN -->
+    <h5>PLEASE SELECT YOUR COUNTRY</h5>
+    <select name="COUNTRY"id="COUNTRY">
+        <option value="Nepal">Nepal</option>
+        <option value="USA">USA</option>
+        <option value="South Korea">South Korea</option>
+        <option value="Japan">Japan</option>
+    </select>
+    <label for="Religion">Choose a Religion:</label>
+    <select name="Religion"id="Religion">
+        <optgroup label="HIDNU">
+            <option value="Chettri">Chettri</option>>
+            <option value="Newar">Newar</option>
+            <option value="Tharu">Tharu</opttion>
+        </optgroup>
+        <optgroup label="Christains">
+            <option value="None">None</option>
+        </optgroup>
+
+    </select>
+</p>
+<p>
+    <h5> Write something</h5>
+    <label for="Review">Review</label>
+
+<textarea id="Review" name="Review" rows="4" cols="80">
+</textarea>
+</p>
+<button type="submit">submit</button>
+<button type="reset">reset</button>
+        </form>
+    </fieldset>
+</body>
+</html>
